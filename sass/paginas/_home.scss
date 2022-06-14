@@ -1,0 +1,15 @@
+.main{
+    margin-top: 11%;
+    position: relative;
+    margin-right: 10%;
+
+    section {
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding: 5px;
+        margin-top: 18px;
+        @include caja;
+    
+    }
+}

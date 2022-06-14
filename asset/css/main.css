@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2? family= Nunito:wght@300 & display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/*globales*/
+html {
+  font-size: 90%; }
+
+body {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: capitalize; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  cursor: pointer; }
+
+/*Variables de color*/
+/*estilos para el header*/
+header {
+  background-color: #1E1E24; }
+  header nav {
+    background-color: #1E1E24; }
+    header nav img {
+      width: 4%;
+      margin-left: 20px; }
+    header nav div {
+      text-align: center;
+      margin-top: 10px; }
+      header nav div a {
+        cursor: pointer;
+        margin-left: 10px; }
+        header nav div a h1 {
+          color: #ffffff; }
+
+.nav_div--menu {
+  margin-bottom: 20px; }
+
+/*estilos para el boton de iniciar seccion del header*/
+.boton_style {
+  border: none;
+  background: none; }
+  .boton_style span {
+    color: #ffffff;
+    padding-bottom: 7px;
+    font-size: 16px;
+    padding-right: 14px;
+    text-transform: uppercase; }
+  .boton_style svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease; }
+
+.boton_style:hover svg {
+  transform: translateX(0); }
+
+.boton_style:active svg {
+  transform: translateX(0.9); }
+
+.hover-underline {
+  position: relative;
+  color: #ffffff;
+  padding-bottom: 20px; }
+
+.hover-underline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #F58A07;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out; }
+
+.boton_style:hover .hover-underline:after {
+  transform: scaleX(1);
+  transform-origin: bottom left; }
+
+/*estilos para responsive del header*/
+@media screen and (max-width: 1000px) {
+  img {
+    width: 40px; } }
+
+@media screen and (max-width: 1000px) {
+  nav {
+    height: 9%;
+    align-content: space-between; } }
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    display: none; } }
+
+@media screen and (max-width: 500px) {
+  nav {
+    height: 9%; } }
+
+@media screen and (max-width: 500px) {
+  h1 {
+    display: none; } }
+
+.main {
+  margin-top: 11%;
+  position: relative;
+  margin-right: 10%; }
+  .main section {
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 5px;
+    margin-top: 18px;
+    background-color: #2D3A3A;
+    box-shadow: 0 6px 6px 0px #F58A07;
+    border-color: #F58A07; }

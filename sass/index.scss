@@ -1,0 +1,14 @@
+//importando archivo con estilos globales para el proyecto
+@import './globales/normalize';
+
+//importando archivo con variables para hacer uso durante el proyecto
+@import './globales/variables';
+
+// importando archivo de mixin 
+@import './globales/mixins';
+
+//importando los estilos aplicados al header
+@import './secciones_iguales/header';
+
+//importando el home
+@import './paginas/home';
