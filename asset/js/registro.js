@@ -27,5 +27,14 @@ function agregar() {
     //console.log(guardararray);
     document.getElementById("tabla").innerHTML += '<tbody><td>', nuevoUsuario.nombre, '</td><td>', nuevoUsuario.correo, '</td></tbody>';
 };
+const $boton = document.querySelector("#boton");
+$boton.addEventListener("click", () => {
+    Swal.fire("bienvenido")
+        .then(() => {
+            // Aquí la alerta se ha cerrado
+            console.log("Alerta cerrada");
+        });
+});
 
 document.getElementById("formulario").addEventListener("submit", capturar)
+
