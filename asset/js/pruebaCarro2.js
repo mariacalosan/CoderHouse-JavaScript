@@ -1,12 +1,10 @@
 //variable inicializadora
 let productos = [];
-$.ajax({
-  url: "./api.json",
-  dataType: "json",
-  success: (capturar) => {
-    implementarProductos(capturar);
-  },
-});
+fetch("./api.json")
+  .then((res) => res.json())
+  .then((data) => {
+    cargarProductos(api);
+  });
 const implementarProductos = (capturar) => {
   productos = capturar;
   const contenedor = document.getElementById("products-container");
