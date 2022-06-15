@@ -1,0 +1,29 @@
+[{
+  "id": 0,
+  "nombre": "New York Yankees",
+  "precio": 35,
+  "img1": "./asset/img/capricciosa.png",
+  "cantidad": 1
+},
+{
+  "id": 1,
+  "nombre": "Boston Sox SS",
+  "precio": 37,
+  "img1": "./asset/img/hawaiana.png",
+  "cantidad": 1
+},
+{
+  "id": 2,
+  "nombre": "Chicago White Sox",
+  "precio": 34,
+  "img1": "./asset/img/margherita.png",
+  "cantidad": 1
+},
+{
+  "id": 3,
+  "nombre": " Los Angeles Dodgers Blue",
+  "precio": 50,
+  "img1": "./asset/img/Diavola.png",
+  "cantidad": 1
+}
+]
