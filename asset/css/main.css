@@ -123,3 +123,21 @@ header {
     background-color: #2D3A3A;
     box-shadow: 0 6px 6px 0px #F58A07;
     border-color: #F58A07; }
+
+
+/*aplicando estilo ha la animacion realizada en el index*/
+.div_container{
+  width: 100px;
+  height: 100px;
+  background-color: #F58A07;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.caja_animacion{
+  width: 25px;
+  height: 25px;
+  background-color: #1E1E24;
+  position: absolute;
+}
