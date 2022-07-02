@@ -2,4 +2,12 @@
     background-color: $bg-gris;
     box-shadow: 0 6px 6px 0px$bg-oranje ;
     border-color: $bg-oranje;
+    border-radius: 10px ;
 }
+
+@mixin titulo{
+    font-size: $tituloh2;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }

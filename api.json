@@ -2,7 +2,7 @@
   {
     "id": 1,
     "titulo": "capricciosa",
-    "imagen": "./asset/img/Capricciosa.png",
+    "imagen": "../asset/img/Capricciosa.png",
     "descripcion": "pizza deliciosa",
     "precio": " 20000"
   },
@@ -10,35 +10,35 @@
   {
     "id": 2,
     "titulo": "Diavola",
-    "imagen": "./asset/img/Diavola.png",
+    "imagen": "../asset/img/Diavola.png",
     "descripcion": "pizza deliciosa",
     "precio": " 18000"
   },
   {
     "id": 3,
     "titulo": "hawaiana",
-    "imagen": "./asset/img/hawaiana.png",
+    "imagen": "../asset/img/hawaiana.png",
     "descripcion": "pizza deliciosa",
     "precio": " 19000"
   },
   {
     "id": 4,
     "titulo": "Margherota",
-    "imagen": "./asset/img/Margherita",
+    "imagen": "../asset/img/Margherita",
     "descripcion": "pizza deliciosa",
     "precio": " 22000"
   },
   {
     "id": 5,
     "titulo": "Prosciuttofunghi",
-    "imagen": "./asset/img/Prosciuttofunghi.png",
-    "descripcion": "pizza deliciosa",
-    "precio": " 14000"
+    "imagen": "../asset/img/Prosciuttofunghi.png",
+    "descripcion": "La simplicidad reina también en esta pizza.",
+    "precio": " 1400"
   },
   {
     "id": 6,
     "titulo": "QuattroFormaggi",
-    "imagen": "./asset/img/QuattroFormaggi.png",
+    "imagen": "../asset/img/QuattroFormaggi.png",
     "descripcion": "pizza deliciosa",
     "precio": " 19000"
   }
